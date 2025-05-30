@@ -1470,6 +1470,7 @@
 	  	right: 0%;
 	  top: 0%;
     z-index: 10;
+    scale: 1.1%;
   }
   .missingIndicator, .unairedIndicator {
   	  box-shadow: 1px 1px 5px 1px rgba(var(--darkest),.5);
