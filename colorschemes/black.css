@@ -1,0 +1,15 @@
+/* Netflix Off-White color scheme */
+
+:root {
+  --accent: 245, 245, 245;         /* #F5F5F5 - Off White */
+  --accent-off: 153, 153, 153;     /* #999999 - Muted Gray */
+  --dark: 20, 20, 20;              /* #141414 - Netflix Dark Background */
+  --darkest: 10, 10, 10;              /* #000000 - Pure Black */
+  --dark-highlight: 51, 51, 51;    /* #333333 - Card/Button Hover */
+  --dark-apparent: 34, 34, 34;     /* #222222 - Secondary Background */
+  
+  --stylish-login: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/stylish-gray.png");
+}
+#loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/minimal-gray.png") !important;}
+.layout-tv .backgroundContainer, .layout-desktop .backgroundContainer {background: 10, 10, 10;}
+.sessionAppInfo img {filter: invert(0%) sepia(70%) saturate(250%) hue-rotate(320deg) brightness(130%) contrast(60%);}
