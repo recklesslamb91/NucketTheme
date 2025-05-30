@@ -12,4 +12,3 @@
 }
 #loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/minimal-gray.png") !important;}
 .layout-tv .backgroundContainer, .layout-desktop .backgroundContainer {background: 10, 10, 10;}
-.sessionAppInfo img {filter: invert(0%) sepia(70%) saturate(250%) hue-rotate(320deg) brightness(130%) contrast(60%);}
