@@ -1459,7 +1459,7 @@
     background: rgba(var(--darkest), 1)
   }
   .cardIndicators {
-    position: static;
+    position: absolute;
 	  contain: unset;
   }
   .countIndicator, .playedIndicator {
@@ -1469,6 +1469,7 @@
     	position: absolute;
 	  	right: 0%;
 	  top: 0%;
+    z-index: 10;
   }
   .missingIndicator, .unairedIndicator {
   	  box-shadow: 1px 1px 5px 1px rgba(var(--darkest),.5);
