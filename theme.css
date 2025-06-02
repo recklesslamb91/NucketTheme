@@ -1427,63 +1427,60 @@
 
   .cardIndicators,
   .listItemIndicators {
-    right: 0;
-    top: 0;
+      right: 0;
+      top: 0;
   }
   .mediaSourceIndicator {
-	  border-radius: var(--rounding) 0px !important;
-	  box-shadow: -1px 1px 5px 1px rgba(var(--darkest),.5);
-	  background: rgba(var(--accent),1);
-	  color: rgb(var(--darkest));
-	  left: 0;
-    top: 0;
+      border-radius: var(--rounding) 0px !important;
+      background: rgba(var(--accent),1);
+      color: rgb(var(--darkest));
+      left: 0;
+      top: 0;
   }
   .videoIndicator {
-    border-radius: 0px var(--rounding) !important;
-    box-shadow: -1px 1px 5px 1px rgba(var(--darkest),.5);
-	  background: rgba(var(--accent),1);
-	  color: rgb(var(--darkest));
+      border-radius: 0px var(--rounding) !important;
+      background: rgba(var(--accent),1);
+      color: rgb(var(--darkest));
   }
   .innerCardFooter {
   /*  border-radius: 0px var(--rounding) !important; */  /* conflicts with my edits of the progress bar */
   /*  box-shadow: 1px 0px 5px 2px rgba(var(--dark),0.5);  */
   }
   .countIndicator {
-    background: rgba(var(--accent),1);
+      background: rgba(var(--accent),1);
   }
   .playedIndicator {
-    background: rgba(var(--darkest), 1)
-    z-index: 10;
-    scale: 1.5%;
+      background: rgba(var(--darkest), 1)
+      z-index: 10;
   }
   .cardIndicators {
-    position: absolute;
-	  contain: unset;
+      position: absolute;
+      contain: unset;
   }
   .countIndicator, .playedIndicator {
-    width: 24px !important;
-	  height: 24px !important;
-	  border-radius: 0px var(--rounding) !important;
-    background: rgba(var(--accent), 1) !important;
-	  color: rgba(var(--darkest), 1) !important;
-    font-weight: bold;
-    position: absolute;
-	  right: 0%;
-	  top: 0%;
-	  border-radius: 0px var(--rounding) !important;
+      width: 24px !important;
+      height: 24px !important;
+      border-radius: 0px var(--rounding) !important;
+      background: rgba(var(--accent), 1) !important;
+      color: rgba(var(--darkest), 1) !important;
+      font-weight: bold;
+      position: absolute;
+      right: 0%;
+      top: 0%;
+      border-radius: 0px var(--rounding) !important;
   }
   .missingIndicator, .unairedIndicator {
-  	  box-shadow: 1px 1px 5px 1px rgba(var(--darkest),.5);
-  	  border-radius: var(--rounding) 0px !important;
-	  background: rgba(var(--accent-off));
-	  color: rgba(var(--darkest));
-	  	padding: 0.3em 0.6em;
-	  position: absolute;
-	  font-weight: bold;
-	  	text-shadow: none;
-	  	margin: 0;
-	  	left: 0%;
-	  top: 0%;
+      box-shadow: 1px 1px 5px 1px rgba(var(--darkest),.5);
+      border-radius: var(--rounding) 0px !important;
+      background: rgba(var(--accent-off));
+      color: rgba(var(--darkest));
+      padding: 0.3em 0.6em;
+      position: absolute;
+      font-weight: bold;
+      text-shadow: none;
+      margin: 0;
+      left: 0%;
+      top: 0%;
   }
 
   /* fix for changes in 10.9.x */
@@ -1491,10 +1488,7 @@
     right: 0em !important;
   }
 
-
-
   /* colorful */
-
 
   /*Colors for Title ribbon */
   .layout-desktop .detailRibbon {
