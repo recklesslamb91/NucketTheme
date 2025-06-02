@@ -1446,16 +1446,13 @@
   /*  border-radius: 0px var(--rounding) !important; */  /* conflicts with my edits of the progress bar */
   /*  box-shadow: 1px 0px 5px 2px rgba(var(--dark),0.5);  */
   }
-  .countIndicator {
-      background: rgba(var(--accent),1);
-  }
   .playedIndicator {
-      background: rgba(var(--darkest), 1)
       z-index: 10;
   }
   .cardIndicators {
       position: absolute;
       contain: unset;
+      
   }
   .countIndicator, .playedIndicator {
       width: 24px !important;
@@ -1470,6 +1467,8 @@
       border-radius: 0px var(--rounding) !important;
   }
   .missingIndicator, .unairedIndicator {
+      width: 24px !important;
+      height: 24px !important;  
       box-shadow: 1px 1px 5px 1px rgba(var(--darkest),.5);
       border-radius: var(--rounding) 0px !important;
       background: rgba(var(--accent-off));
@@ -2810,7 +2809,6 @@
   }
 
   .layout-mobile .headerLeft .paper-icon-button-light > .material-icons {
-    filter: drop-shadow(2px 2px 1.6px rgb(var(--darkest)));
   }
 
   .layout-mobile .emby-button-foreground {
@@ -3048,7 +3046,6 @@
 
  .layout-mobile .headerRight {
 	  height: 40px !important;
-	  filter: drop-shadow(3px 2px 3px rgba(var(--darkest),.35));
 	  margin-right: 0.35em;
   }
 
@@ -3922,7 +3919,6 @@
 .layout-tv .countIndicator, .layout-tv .playedIndicator {
 	font-size: 130%;
 	border-radius: 0px 0px 0px 48px !important;
-	box-shadow: -1px 1px 17px 1px rgba(var(--darkest),.75);
 }
 
 
