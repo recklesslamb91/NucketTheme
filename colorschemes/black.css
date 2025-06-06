@@ -2,9 +2,9 @@
 
 :root {
   --accent: 245, 245, 245;         /* #F5F5F5 - Off White */
-  --accent-off: 153, 153, 153;     /* #999999 - Muted Gray */
+  --accent-off: 120, 120, 120;     /* #787878 - Darker muted gray */
   --dark: 20, 20, 20;              /* #141414 - Netflix Dark Background */
-  --darkest: 10, 10, 10;              /* #000000 - Pure Black */
+  --darkest: 10, 10, 10;           /* #000000 - Pure Black */
   --dark-highlight: 51, 51, 51;    /* #333333 - Card/Button Hover */
   --dark-apparent: 34, 34, 34;     /* #222222 - Secondary Background */
   
