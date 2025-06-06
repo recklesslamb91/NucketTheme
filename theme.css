@@ -1,4 +1,4 @@
-  @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/cyan.css');
+ /* @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/cyan.css');*/
   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); body, h1, h2, h3, h4 {font-family: 'Quicksand', sans-serif;}
 
   :root {
@@ -51,9 +51,9 @@
   }
   .layout-tv .backgroundContainer, 
   .layout-desktop .backgroundContainer {
-    background-size: cover !important; /* fix for gradient on 2K and 4K displays */
+    /* background-size: cover !important;
     position: fixed;
-    opacity: 100%;
+    opacity: 100%; */
   }
   /* controls gradient overlay properties - url to img in colorschemes */
   .layout-tv .backgroundContainer
