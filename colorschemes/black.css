@@ -11,4 +11,4 @@
   --stylish-login: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/stylish-gray.png");
 }
 #loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/minimal-gray.png") !important;}
-.layout-tv .backgroundContainer, .layout-desktop .backgroundContainer {background: 10, 10, 10;}
+.layout-tv .backgroundContainer, .layout-desktop .backgroundContainer {background: darkest;}
