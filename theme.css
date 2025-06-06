@@ -58,13 +58,14 @@
   /* controls gradient overlay properties - url to img in colorschemes */
   .layout-tv .backgroundContainer
   .layout-desktop .backgroundContainer {
-    position: fixed;
+    background-color: rgba(var(--darkest));
+    /*position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     background-size: cover;
-    opacity: 1;
+    opacity: 1; */
   }
   .layout-desktop .detailPageWrapperContainer {
     margin-top: -89vh;
